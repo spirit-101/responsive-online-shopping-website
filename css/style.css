@@ -1,0 +1,147 @@
+/* HEADER */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e9fac8;
+}
+
+.logo {
+  height: 3.2rem;
+  margin-left: -1.8rem;
+}
+
+/* NAVIGATION */
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+  padding: 3.2rem 5.2rem 3rem 4.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #51cf66;
+}
+
+/* HERO */
+
+.section-hero {
+  background-image: linear-gradient(to bottom, #e9fac8, #d3f9d8);
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 9.6rem;
+  align-items: center;
+}
+
+.hero-description {
+  font-size: 2rem;
+  line-height: 1.6;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 55%;
+  margin-left: 10rem;
+}
+
+.hero-img-box {
+  position: relative;
+  z-index: 9999;
+}
+
+.hero-img-box:before,
+.hero-img-box:after {
+  content: "";
+  display: block;
+  border-radius: 11px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.hero-img-box:before {
+  background-color: #69db7c;
+  z-index: -2;
+  transform: translate(-63%, -50%);
+  width: 58%;
+  padding-bottom: 90%;
+}
+
+.hero-img-box:after {
+  background-color: #51cf66;
+  z-index: -1;
+  transform: translate(-30%, -50%);
+  width: 38%;
+  padding-bottom: 90%;
+}
+
+.btn.btn--hero {
+  color: #fff;
+  background-color: #40c057;
+  border-radius: 100px;
+}
+
+.btn.btn--hero:hover {
+  background-color: #51cf66;
+}
+
+/* FEATURED */
+
+.section-featured {
+  padding: 4.8rem 0 3.2rem 0;
+}
+
+.featured-header {
+  text-align: center;
+}
+
+.heading-featured {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  font-weight: 500;
+  margin-bottom: 2.4rem;
+  color: #888;
+}
+
+.featured-icon {
+  height: 2.2rem;
+  width: 2.2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  background-color: #f1f3f5;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 50%;
+}
