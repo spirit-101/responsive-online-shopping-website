@@ -49,6 +49,10 @@ body {
   align-items: center;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .heading-primary,
 .heading-secondary,
 .heading-tertiary {
