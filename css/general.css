@@ -105,3 +105,24 @@ body {
 
   transition: all 300ms;
 }
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  line-height: 1.2;
+}
+
+.list-icon {
+  width: 2.6rem;
+  height: 2.6rem;
+  color: #37b24d;
+}
