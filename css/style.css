@@ -61,8 +61,10 @@
 }
 
 .hero-img {
-  width: 55%;
+  width: 53%;
   margin-left: 10rem;
+  margin-top: 2rem;
+  border-radius: 5px;
 }
 
 .hero-img-box {
@@ -81,19 +83,19 @@
 }
 
 .hero-img-box:before {
-  background-color: #69db7c;
+  background-color: #8ce99a;
   z-index: -2;
-  transform: translate(-63%, -50%);
+  transform: translate(-63%, -48%);
   width: 58%;
-  padding-bottom: 90%;
+  padding-bottom: 87%;
 }
 
 .hero-img-box:after {
-  background-color: #51cf66;
+  background-color: #69db7c;
   z-index: -1;
-  transform: translate(-30%, -50%);
-  width: 38%;
-  padding-bottom: 90%;
+  transform: translate(-30%, -48%);
+  width: 35%;
+  padding-bottom: 87%;
 }
 
 .btn.btn--hero {
@@ -440,7 +442,7 @@
   padding: 3.2rem;
   background-color: #d3f9d8;
   transform: scale(1.05, 1.1);
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 12px;
 }
 
 .pricing-plan-superior {
@@ -484,4 +486,219 @@
   font-size: 1.6rem;
   line-height: 1.6;
   text-align: center;
+  margin-top: 6rem;
+}
+
+/* CTA FORM */
+
+.section-cta {
+  padding: 4.8rem 0 12.8rem 0;
+}
+
+.cta {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.15);
+  border-radius: 9px;
+  background-color: #51cf66;
+}
+
+.cta-text-box {
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.cta .heading-secondary {
+  color: inherit;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary.form-heading {
+  color: #fff;
+  text-align: center;
+}
+
+.cta-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 4.8rem;
+}
+
+.cta-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 2.4rem;
+}
+
+.cta-form label {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1.2rem;
+  color: #fff;
+}
+
+.cta-form input,
+.cta-form select {
+  width: 100%;
+  padding: 1.2rem;
+  font-size: 1.8rem;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  /* background-color: # */
+  border-radius: 9px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.cta-form ::placeholder {
+  color: #aaa;
+}
+
+.cta *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(253, 242, 233, 0.5);
+}
+
+.btn.btn--form {
+  color: #fff;
+  background-color: #2b8a3e;
+  border-radius: 100px;
+}
+
+.btn.btn--form:hover {
+  background-color: #37b24d;
+}
+
+.contact-box {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ctb-1 {
+  transform: translateY(20rem);
+  transform: translateX(-6rem);
+}
+/* .ctb-2 {
+  transform: translateY(6rem);
+} */
+
+.contact-heading {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: #a9a9a9;
+  letter-spacing: 1.4px;
+  margin-bottom: 1.2rem;
+}
+
+.contact-number {
+  font-size: 1.8rem;
+  color: #444;
+}
+
+.contact-text-box {
+  background-color: #f8f9fa;
+  padding: 6rem 5rem 6rem 5rem;
+  border-radius: 10px;
+  border: 8px solid #d3f9d8;
+}
+
+.form-icon {
+  margin-bottom: 1.2rem;
+  width: 4.2rem;
+  height: 4.2rem;
+  color: #444;
+  background-color: #f1f3f5;
+  padding: 1.2rem;
+  border-radius: 50%;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
+}
+
+.grid--footer {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo-footer {
+  margin-left: -8.5rem;
+  height: 3.4rem;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 2.4rem;
+}
+
+.social-icon {
+  height: 2.2rem;
+  width: 2.2rem;
+  color: #51cf66;
+  transition: all 0.4s;
+}
+
+.social-icon:hover {
+  color: #37b24d;
+}
+
+.footer-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.6rem;
+  text-align: start;
+  text-transform: uppercase;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.address {
+  margin-bottom: 2.4rem;
+}
+
+.contacts {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.7rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #51cf66;
+}
+
+.footer-p {
+  margin-top: -1.8rem;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  color: #777;
+  margin-bottom: 3rem;
 }

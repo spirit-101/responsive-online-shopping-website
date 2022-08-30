@@ -126,3 +126,8 @@ body {
   height: 2.6rem;
   color: #37b24d;
 }
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.8rem rgba(107, 245, 107, 0.5);
+}
