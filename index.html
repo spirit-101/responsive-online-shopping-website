@@ -5,6 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -16,6 +35,8 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/queries.css" />
 
+    <script defer src="js/script.js"></script>
+
     <title>iShop &mdash; The better way to shop</title>
   </head>
   <body>
@@ -26,7 +47,7 @@
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#how">How it works</a></li>
-          <li><a class="main-nav-link" href="#meals">Products</a></li>
+          <li><a class="main-nav-link" href="#products">Products</a></li>
           <li>
             <a class="main-nav-link" href="#testimonials">Testimonials</a>
           </li>
@@ -52,7 +73,7 @@
               Shop our wide selection of products with both better quality and a
               low cost. Make the switch. Shop the better way.
             </p>
-            <a href="#" class="btn btn--hero">iShop now &rarr;</a>
+            <a href="#products" class="btn btn--hero">iShop now &rarr;</a>
           </div>
           <div class="hero-img-box">
             <img
@@ -86,7 +107,7 @@
         </div>
       </section>
 
-      <section class="section-how">
+      <section class="section-how" id="how">
         <div class="container text-center">
           <span class="subheading">How it works</span>
           <h2 class="heading-secondary">Make life easier, easily.</h2>
@@ -139,7 +160,7 @@
         </div>
       </section>
 
-      <section class="section-products">
+      <section class="section-products" id="products">
         <div class="container text-center">
           <span class="subheading">Products</span>
           <h2 class="heading-secondary">Everything you need, right here.</h2>
@@ -303,7 +324,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section class="section-testimonials" id="testimonials">
         <div class="container text-center">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">They can't live without us</h2>
@@ -420,7 +441,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section class="section-pricing" id="pricing">
         <div class="container text-center">
           <span class="subheading">Delivery Plans</span>
           <h2 class="heading-secondary">Orders delivered in minutes</h2>
@@ -523,7 +544,7 @@
         </div>
       </section>
 
-      <section class="section-cta">
+      <section class="section-cta" id="cta">
         <div class="container">
           <div class="cta">
             <div class="cta-text-box">
