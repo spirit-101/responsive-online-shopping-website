@@ -6,14 +6,14 @@ A responsive online shopping website created to make shopping more convenient, c
 
 ## Resources:
 
-### Typography // Color Palette
+ **Typography & Color Palette**
 
 - [Open Color](https://yeun.github.io/open-color/)
 - [Coolors](https://coolors.co/contrast-checker/112a46-acc8e5)
 - [Tint & Shade Generator](https://maketintsandshades.com/)
 - [Google Fonts (Rubik)](https://fonts.google.com/)
 
-### Icons== // Images
+ **Icons & Images**
 
 - [Unsplash](https://unsplash.com/)
 - [Pexels](https://www.pexels.com/)
